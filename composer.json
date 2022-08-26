@@ -1,0 +1,23 @@
+{
+    "name": "vasilis/odoo-api",
+    "description": "A simple package to get data from Odoo",
+    "require": {
+        "darkaonline/ripcord": "^0.1.7",
+        "psy/psysh": "^0.10.4",
+        "phpxmlrpc/phpxmlrpc": "^4.4",
+        "robroypt/odoo-client": "^1.0beta"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vasilis\\OdooApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tzimplakis Vasilis",
+            "email": "vtzimpl@yahoo.gr"
+        }
+    ],
+    "minimum-stability": "stable"
+}
